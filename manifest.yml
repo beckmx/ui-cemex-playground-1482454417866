@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ui-cemex-playground
+  host: ui-cemex-playground
+  disk_quota: 1024M
+  services:
+  - ui-cemex-playground-cloudantNoSQLDB
